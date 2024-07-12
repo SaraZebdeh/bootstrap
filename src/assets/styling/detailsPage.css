@@ -159,13 +159,19 @@ h5 {
 
 .sub-topics-div {
   width: 100%;
-  border-radius: 8px;
   border: 1px solid var(--lines-color);
 }
 
 .sub-topic {
   width: 100%;
   border-bottom: 1px solid var(--lines-color);
+}
+
+.sub-topic:first-child {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.sub-topic:last-child {
   border-radius: 8px;
 }
 

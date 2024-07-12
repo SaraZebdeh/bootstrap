@@ -137,7 +137,7 @@ const renderCardsOfTopics = (data) => {
   cardsContainer.innerHTML = "";
   data.forEach((cardData) => {
     const card = document.createElement("div");
-    card.classList.add("text-left", "card", "border-0", "topic");
+    card.classList.add("rounded", "text-left", "card", "border-0", "topic");
     console.log(cardData.category);
     const imgCard = document.createElement("div");
     imgCard.classList.add(
@@ -148,17 +148,19 @@ const renderCardsOfTopics = (data) => {
       "topic-img"
     );
     const image = document.createElement("img");
+    image.classList.add("card-img-top");
     image.src = cardData.image;
     image.alt = cardData.topic;
 
     const information_div = document.createElement("div");
-    information_div.classList.add("p-3");
+    information_div.classList.add("card-body", "p-3");
 
     const topic_p = document.createElement("p");
-    topic_p.classList.add("m-0","topicCategory");
+    topic_p.classList.add("card-subtitle", "m-0","topicCategory");
     topic_p.textContent = cardData.category;
 
     const topic_h3 = document.createElement("h3");
+    topic_h3.classList.add("card-title");
     topic_h3.textContent = cardData.topic;
 
     const stars_ul = document.createElement("ul");
@@ -180,7 +182,7 @@ const renderCardsOfTopics = (data) => {
     });
 
     const topic_auther_p = document.createElement("p");
-    topic_auther_p.classList.add("m-0", "auther-p");
+    topic_auther_p.classList.add("card-text", "m-0", "auther-p");
     topic_auther_p.textContent = `Author: ${cardData.name}`;
     information_div.appendChild(topic_p);
     information_div.appendChild(topic_h3);
