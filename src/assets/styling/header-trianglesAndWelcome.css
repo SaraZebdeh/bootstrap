@@ -1,0 +1,33 @@
+.two-triangles-box {
+  max-height: 120px;
+}
+
+.triangle1,
+.triangle2 {
+  width: 100%;
+  min-height: 60px;
+}
+
+.triangle1 {
+  clip-path: polygon(0 0, 0 100%, 80% 0);
+  background: rgb(7, 104, 172);
+  background: linear-gradient(
+    90deg,
+    var(--brand-primary) 0%,
+    var(--brand-secondary) 100%
+  );
+}
+
+.triangle2 {
+  background-color: var(--brand-secondary);
+  clip-path: polygon(0 0, 100% 100%, 100% 0);
+}
+
+.welcome-box {
+  transform: translateY(-1rem);
+  background-color: transparent;
+}
+
+.welcome-box * {
+  background-color: transparent;
+}

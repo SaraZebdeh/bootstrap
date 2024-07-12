@@ -1,0 +1,36 @@
+.mode-btn,
+.favourites-btn {
+  border: 1px solid var(--lines-color);
+  border-radius: 4.8px;
+  color: var(--body-text);
+}
+
+.nav-h3 {
+  color: var(--brand-primary);
+}
+
+#heart-icon-btn,
+#mode-icon-btn {
+  width: 13px;
+  height: 13px;
+}
+
+#heart-icon-btn {
+  color: var(--body-text);
+}
+
+#heart-icon-btn.clicked {
+  color: #dc143c;
+}
+
+#mode-icon-btn {
+  color: var(--body-text);
+}
+
+#mode-icon-btn.clicked {
+  color: #c2d055;
+}
+
+span {
+  font-size: 0.9rem;
+}

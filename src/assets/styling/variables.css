@@ -1,0 +1,50 @@
+:root {
+  /* Default (light mode) colors */
+  --brand-primary: #0768ac;
+  --brand-secondary: #03c180;
+  --bg_default: #ffffff;
+  --bg_body: #f0f9ff;
+  --lines-color: #dddddd;
+  --body-text: #333333;
+  --heart-color: #dc143c;
+  --white-color:white;
+  --bg_details:#333333;
+  --black-color:black;
+  --star-color:#ff9f43;
+  --favourite-border:#dddddd;
+  --gray-color: gray;
+}
+
+body.light-mode {
+  /* Light mode colors */
+  --brand-primary: #0768ac;
+  --brand-secondary: #03c180;
+  --bg_default: #ffffff;
+  --bg_body: #f0f9ff;
+  --lines-color: #dddddd;
+  --body-text: #333333;
+  --heart-color: #dc143c;
+  --white-color:white;
+  --bg_details:#333333;
+  --black-color:black;
+  --star-color:#ff9f43;
+  --favourite-border:#dddddd;
+  --gray-color: gray;
+}
+
+body.dark-mode {
+  /* Dark mode colors */
+  --brand-primary: #0768ac;
+  --brand-secondary: #03c180;
+  --bg_default: #1a1a1a;
+  --bg_body: #282828;
+  --lines-color: #000000;
+  --body-text: #ededed;
+  --heart-color: #dc143c;
+  --white-color:white;
+  --bg_details:#333333;
+  --black-color:black;
+  --star-color:#ff9f43;
+  --favourite-border:#dddddd;
+  --gray-color: gray;
+}

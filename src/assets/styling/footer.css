@@ -1,0 +1,16 @@
+footer {
+  background-color: var(--bg_body);
+}
+
+.footer-div {
+  background-color: var(--bg_body);
+}
+
+.footer-div p {
+  background-color: var(--bg_body);
+}
+
+.heart-icon {
+  background-color: var(--bg_body);
+  color: var(--heart-color);
+}

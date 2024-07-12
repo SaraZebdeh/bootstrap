@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+  background-color: var(--bg_default);
+}
+
+body {
+  font-family: "Nunito Sans";
+  background-color: var(--bg_body);
+  color: var(--body-text);
+}
